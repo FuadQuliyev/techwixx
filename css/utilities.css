@@ -1,0 +1,181 @@
+/* Common utilities classes */
+
+:root {
+
+    /* colors */
+    --primary-color: #086ad8;
+    --secondary-color: black;
+    --success-color: #0e0e0e;
+    --info-color: #17a2b8;
+
+    /* spaces */
+    --space-0: 0px;
+    --space-1: 5px;
+    --space-2: 10px;
+    --space-3: 15px;
+    --space-4: 20px;
+    --space-5: 25px;
+    --space-6: 30px;
+    --space-7: 35px;
+    --space-9: 40px;
+    --space-10: 45px;
+    --space-11: 50px;
+    --space-12: 55px;
+    --space-13: 60px;
+    --space-14: 65px;
+    --space-15: 70px;
+    --space-16: 80px;
+    --space-17: 90px;
+    --space-18: 100px;
+}
+
+/* padding classes
+
+p-padding
+px- padding x-axis
+py- padding y-axis
+pt- padding top
+pr- padding right
+pb- padding bottom
+pl- padding left */
+
+
+/* Padding General */
+.p-0{
+    padding: var(--space-0);
+}
+.p-1{
+    padding: var(--space-1);
+}
+.p-2{
+    padding: var(--space-2);
+}
+.p-3{
+    padding: var(--space-3);
+}
+.p-4{
+    padding: var(--space-4);
+}
+.p-5{
+    padding: var(--space-5);
+}
+.p-6{
+    padding: var(--space-6);
+}
+.p-7{
+    padding: var(--space-7);
+}
+.p-8{
+    padding: var(--space-8);
+}
+
+/* Padding x-axis */
+
+.px-0{
+    padding-right: var(--space-0);
+    padding-left: var(--space-0);
+}
+.px-1{
+    padding-right: var(--space-1);
+    padding-left: var(--space-1);
+}
+.px-2{
+    padding-right: var(--space-2);
+    padding-left: var(--space-2);
+}
+.px-3{
+    padding-right: var(--space-3);
+    padding-left: var(--space-3);
+}
+.px-4{
+    padding-right: var(--space-4);
+    padding-left: var(--space-4);
+}
+.px-5{
+    padding-right: var(--space-5);
+    padding-left: var(--space-5);
+}
+.px-6{
+    padding-right: var(--space-6);
+    padding-left: var(--space-6);
+}
+.px-7{
+    padding-right: var(--space-7);
+    padding-left: var(--space-7);
+}
+.px-8{
+    padding-right: var(--space-8);
+    padding-left: var(--space-8);
+}
+
+/* Margin classes */
+
+
+/* Colors */
+.bg-primary{
+    background-color: var(--primary-color);
+}
+.bg-secondary{
+    background-color: var(--secondary-color);
+}
+.bg-success{
+    background-color: var(--success-color);
+}
+
+
+/* background setting */
+.bg-size-cover {
+    background-size: cover;
+}
+.bg-position-center {
+    background-position: center center;
+}
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+/* Text colors */
+.text-primary{
+    color: var(--primary-color);
+}
+.text-secondary{
+    color: var(--secondary-color);
+}
+.text-success{
+    color: var(--success-color);
+}
+
+
+/* Flex classes */
+.d-flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-row {
+    flex-direction: row;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-start{
+    align-items: start;
+}
