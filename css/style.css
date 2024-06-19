@@ -5,7 +5,6 @@
     background-image: url("/assets/hero-bg3.jpg");
     position: relative;
     overflow: hidden;
-    z-index: 999;
 }
 
 .svg-top {
@@ -259,7 +258,6 @@ h1 {
 
 .container {
     position: relative;
-    z-index: 9999;
 }
 
 .service-row {
@@ -1259,7 +1257,6 @@ p {
     width: 100%;
     position: relative;
     top: 95px;
-    z-index: 2;
 }
 
 .cta {
@@ -1345,7 +1342,7 @@ p {
 #footer {
     background-image: url("/assets/footer-bg.jpg");
     position: relative;
-    z-index: 1;
+    z-index: -5;
 }
 
 .footer {
