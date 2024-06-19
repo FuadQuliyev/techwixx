@@ -141,17 +141,6 @@
     color: var(--primary-color);
 }
 
-.navbar-btn {
-    width: 190px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 0 0 30px;
-    background: linear-gradient(195deg, #086ad8 0%, #42b9ff 100%);
-    border-radius: 5px;
-    position: relative;
-    
-}
 .navbar-btn a {
     padding: 12px 0;
     border: none;
@@ -222,12 +211,6 @@ h1 {
     font-family: "Teachers", sans-serif;
 }
 
-.home-btn {
-    width: 220px;
-    background: linear-gradient(195deg, #086ad8 0%, #42b9ff 100%);
-    position: relative;
-}
-
 .home-btn::before {
     content: "";
     width: 0;
@@ -276,6 +259,7 @@ h1 {
 
 .container {
     position: relative;
+    z-index: 9999;
 }
 
 .service-row {
@@ -1307,11 +1291,6 @@ p {
     font-size: 30px;
     line-height: 44px;
     letter-spacing: -1px;
-}
-
-.cta-btn {
-    height: 60px;
-    position: relative;
 }
 
 .cta-btn a {

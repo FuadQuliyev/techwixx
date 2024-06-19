@@ -1211,3 +1211,33 @@ pl- padding left */
 
 
 
+/* BUTTON CLASSES */
+
+.btn-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(195deg, #086ad8 0%, #42b9ff 100%);
+    border-radius: 5px;
+    position: relative;
+}
+
+.navbar-button {
+    width: 190px;
+    margin: 0 0 0 30px;
+}
+
+.home-button {
+    width: 220px;
+    margin: 50px 0 0 0;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+
+.cta-button {
+    height: 60px;
+    background: var(--info-color);
+    margin: 0 70px;
+}
+
